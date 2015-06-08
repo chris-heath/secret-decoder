@@ -52,7 +52,7 @@ public class Decoder1 {
 						+ "= f(x+y) = f(x) + f(y) for all prime numbers less than N");
 				return;
 			}else if(bothPrime){
-				logger.info("x+y=N where x and y are prime numbers "+i+" and "+(limit-i));
+				//logger.info("x+y=N where x and y are prime numbers "+i+" and "+(limit-i));
 				xyValid++;
 			}
 		}

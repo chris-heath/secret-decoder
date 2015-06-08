@@ -54,8 +54,8 @@ public class Decoder2 {
 				}
 			}
 		}
-		logger.info("psstt... Secret is an Additive function where f(N) "
-				+ "= f(x+y) = f(x) + f(y) for all prime numbers less than N");
+		logger.info("psstt... Secret is an Additive function where "
+				+ "f(x+y) = f(x) + f(y) for all prime numbers less than N");
 	}
 	
 	public static void main(String args[]){
