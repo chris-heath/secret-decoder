@@ -1,5 +1,7 @@
 package main.java.com.cheath;
 
+import java.util.Scanner;
+
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
@@ -68,9 +70,8 @@ public class Decoder1 {
 		BasicConfigurator.configure();
 		
 		try{
-			if(args.length < 1){
-			}
-			int input = Integer.parseInt(args[0]);
+			System.out.print("Input value for N: ");
+			int input = Integer.parseInt(new Scanner(System.in).next());
 			
 			if(3 > input){
 				// we're assuming the input is a natural number greater than 2 since it is the first prime
